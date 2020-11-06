@@ -24,4 +24,4 @@ Classificação da tipologia da coligação segundo a composição da coligaçã
 ## Funções:
 As funções que fazem a classificação automática usam a função **[strdetect](https://stringr.tidyverse.org/reference/str_detect.html)** do pacote [rstring](https://www.rdocumentation.org/packages/stringr/versions/1.4.0) como base para identificar as siglas dos partidos que compõe a coligação da qual o candidato(a) pertence. E a partir da identificação deste padrões textuais é realizada a primeira classificação segundo **Posicionamento Ideológico do Partido**. 
 
-**NOTE QUE OS PARTIDOS CLASSIFICADOS COMO DIREITA, CENTRO E ESQUERDA FORAM COLOCADOS ASSIM NO CÓDIGO PARA MOTIVOS DIDÁTICOS.**
+**NOTE QUE OS PARTIDOS CLASSIFICADOS COMO DIREITA, CENTRO E ESQUERDA FORAM COLOCADOS ASSIM NO CÓDIGO PARA MOTIVOS DIDÁTICOS E NÃO REPRESENTAM NECESSARIAMENTE A CLASSIFICAÇÃO CORRETA SEGUNDO A LITERATURA.**

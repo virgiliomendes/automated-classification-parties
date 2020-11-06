@@ -9,20 +9,17 @@ Os dados usados como base para a construção desse classificador foram referent
 
 São elaboradas classificações segundo a consistência ideológica das coligações, podendo ser classificadas em **Centro (C)**, **Esquerda (E)** e **Direita (D)**. Outra classificação realizada é se a coligação é consistente ideologicamente, inconsistente ou semiconsistente, seguindo a caracterização a partir das conjunção dos partidos presentes na coligação: 
 
-Classificação dos partidos que compõem a coligação 	Tipo  da coligação
-D / D	Consistente 
-E / E	Consistente 
-E / C	Semiconsistente
-D / C	Semiconsistente
-D / E	Inconsistente
-E / D	Inconsistente
+Classificação da tipologia da coligação segundo a composição da coligação (exemplo usado como referência para o código):
 
 
-| Posicionamento Ideológico | Classificação   |
-|---------------------------|-----------------|
-| D / D                     | Consistente     |
-| E / E                     | Consistente     |
-| E / C                     | Semiconsistente |
-| D / C                     | Semiconsistente |
-| D / E                     | Inconsistente   |
-| E / D                     | Inconsistente   |
+| Posicionamento Ideológico   | Classificação   |
+|-----------------------------|-----------------|
+| Direita (D) / Direita (D)   | Consistente     |
+| Esquerda (E) / Esquerda (E) | Consistente     |
+| Esquerda (E) / Centro (C)   | Semiconsistente |
+| Direita (D) / Centro (C)    | Semiconsistente |
+| Direita (D) / Esquerda (E)  | Inconsistente   |
+| Esquerda (E) / Direita (D)  | Inconsistente   |
+
+## Funções:
+As funções que fazem a classificação automática usam a função **[strdetect](https://stringr.tidyverse.org/reference/str_detect.html)** do pacote [rstring](https://www.rdocumentation.org/packages/stringr/versions/1.4.0) como base para identificar as siglas dos partidos que compõe a coligação da qual o candidato(a) pertence. E a partir da identificação deste padrões textuais é realizada a primeira classificação segundo **Posicionamento Ideológico do Partido**. NOTE QUE OS PARTIDOS CLASSIFICADOS COMO DIREITA, CENTRO E ESQUERDA FORAM COLOCADOS ASSIM NO CÓDIGO PARA MOTIVOS DIDÁTICOS.

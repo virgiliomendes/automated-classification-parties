@@ -10,7 +10,7 @@ O código desenvolvido propõe extrair dados eleitorais do TSE via pacote Electi
 ## Classificação:
 Os dados usados como base para a construção desse classificador foram referentes às coligações eleitorais do executivo municipal nas eleições de 2012 e 2016 no Brasil.
 
-São elaboradas classificações segundo a consistência ideológica das coligações, podendo ser classificadas em *Centro (C), **Esquerda (E)* e *Direita (D)*. Outra classificação realizada é se a coligação é consistente ideologicamente, inconsistente ou semiconsistente, seguindo a caracterização a partir das conjunção dos partidos presentes na coligação: 
+São elaboradas classificações segundo a consistência ideológica das coligações, podendo ser classificadas em *Centro (C)*, *Esquerda (E)* e *Direita (D)*. Outra classificação realizada é se a coligação é consistente ideologicamente, inconsistente ou semiconsistente, seguindo a caracterização a partir das conjunção dos partidos presentes na coligação: 
 
 Classificação da tipologia da coligação segundo a composição da coligação (exemplo usado como referência para o código):
 
